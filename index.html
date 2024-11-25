@@ -5,45 +5,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 2</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
-   <div id="container">
-    <header class="header">
-        <div class="header-content">
-            <a href="#" class="logo">Project 2</a>
-
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li class="nav-items">
-                        <a href="#" class="nav-link">Solutions</a>
+    <main>
+        <nav id="navbar" class="navbar">
+            <ul>
+                <li>
+                    <a href="" class="home">Home</a>
+                </li>
+                <div class="nav-toogle">
+                    <li>
+                        <a href="">About</a>
                     </li>
-                    <li class="nav-items">
-                        <a href="#" class="nav-link">Projects</a>
+                    <li>
+                        <a href="">Shop</a>
                     </li>
-                    <li class="nav-items">
-                        <a href="#" class="nav-link">Contact</a>
+                    <li>
+                        <a href="">Login</a>
                     </li>
-                </ul> 
-            </nav>
+                    <li>
+                        <a href="">Register</a>
+                    </li>
+                    <li>
+                        <a href="">Contact</a>
+                    </li>
+                    <li>
+                        <a href="">Dashboard</a>
+                    </li>
+                </div>
+            </ul>
 
-            <div class="hamburger">
-                <div class="bar"></div>
-                <div class="bar"></div>
-                <div class="bar"></div>
-            </div>
-        </div>
-    </header>
-   </div>
-    
 
+            <button id="hamburgerid" class="hamburger"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none"
+                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" width="65" height="65"
+                    stroke-width="2" style="--darkreader-inline-stroke: currentColor;" data-darkreader-inline-stroke="">
+                    <path d="M4 6l16 0"></path>
+                    <path d="M4 12l16 0"></path>
+                    <path d="M4 18l16 0"></path>
+                </svg> </button>
+        </nav>
+
+        <form>
+            <label for="search"></label>
+            <input id="search" placeholder="Search" type="search" />
+            <button id="btnSearch">Search</button>
+        </form>
+        <div class="out"></div>
+    </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
-        <script src="main.js"></script>
+    <script type="text/javascript" src="giphy.js"></script>
 </body>
 
 </html>

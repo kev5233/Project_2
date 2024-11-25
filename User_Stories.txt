@@ -1,0 +1,4 @@
+As a Gif enthusiasts I want to be able to
+- Type in Text
+- Click Search
+- View Gif's on page
